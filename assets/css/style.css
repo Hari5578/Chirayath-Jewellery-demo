@@ -32,6 +32,10 @@ h5,
 h6 {
   font-family: "Roboto", sans-serif;
 }
+.h5,h5{
+  font-size: 1.5rem;
+  color: #351122;
+}
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -577,7 +581,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #b82222;
+  color: #351122;
 }
 
 .section-title p {
