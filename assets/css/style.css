@@ -1670,6 +1670,10 @@ section {
     max-width: 100%;
     height: 28vh;
   }
+  .about{
+    padding: 60px 0 40px 40px;
+    font-size: 0.5rem;
+  }
 }
   /*hero
   .do-banner-slider-wrap-mbl {
