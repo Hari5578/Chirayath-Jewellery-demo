@@ -1672,6 +1672,7 @@ section {
   }
   .about{
     padding: 60px 0 40px 40px;
+    padding-right: 40px;
     font-size: 0.5rem;
   }
 }
