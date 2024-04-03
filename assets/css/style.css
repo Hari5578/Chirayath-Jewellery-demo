@@ -10,7 +10,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "italiq";
+  font-family: "century";
   color: #000000;
 }
 
@@ -30,14 +30,18 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Rihena", sans-serif;
+  font-family: "Rihena";
 }
 .h5,h5{
   font-size: 1.5rem;
   color: #351122;
 }
 .h2,h2{
-  font-family:"Rihena";
+  font-family:"century";
+}
+/* CSS style for increasing line height */
+.spaced-paragraph {
+  line-height: 2.0; /* Adjust the value as per your requirement */
 }
 
 /*--------------------------------------------------------------
