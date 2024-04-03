@@ -10,7 +10,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "italiq";
   color: #000000;
 }
 
@@ -25,16 +25,19 @@ a:hover {
 }
 
 h1,
-h2,
+
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Rihena", sans-serif;
 }
 .h5,h5{
   font-size: 1.5rem;
   color: #351122;
+}
+.h2,h2{
+  font-family:"Rihena";
 }
 
 /*--------------------------------------------------------------
@@ -578,7 +581,7 @@ section {
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: inherit;
   margin-bottom: 20px;
   padding-bottom: 0;
   color: #351122;
@@ -1795,7 +1798,7 @@ section {
 }
 .section-title h2 {
   font-size: 32px;
-  font-weight: bold;
+  font-weight: inherit;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
