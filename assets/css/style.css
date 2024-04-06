@@ -804,6 +804,27 @@ section {
   font-size: 14px;
 }
 
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.gallery{
+  width: justify;
+  height: auto;
+  text-align: center;
+  margin: auto;
+}
+.gallery img{
+  width: 400px;
+  height:auto;
+  transition: 0.5s;
+}
+.gallery img:hover{
+  filter: grayscale(0%);
+  transform: scale(1.02);
+}
+
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
