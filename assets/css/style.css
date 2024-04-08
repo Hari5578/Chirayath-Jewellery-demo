@@ -44,7 +44,7 @@ h6 {
   line-height: 2.0; /* Adjust the value as per your requirement */
 }
 @media{
-  h2{
+  .h2{
     font-family: "century";
   }
 }
