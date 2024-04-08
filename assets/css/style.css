@@ -43,6 +43,16 @@ h6 {
 .spaced-paragraph {
   line-height: 2.0; /* Adjust the value as per your requirement */
 }
+@media{
+  h2{
+    font-family: "century";
+  }
+}
+@media{
+  .about{
+    font-family: "century";
+  }
+}
 
 /*--------------------------------------------------------------
 # Back to top button
