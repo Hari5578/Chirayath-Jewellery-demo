@@ -7,7 +7,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: 'Bodoni Moda', serif !important;
+  font-family: 'Century', serif !important;
   color: #000000;
 }
 
@@ -27,24 +27,35 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Bodoni MT", serif !important;
+  font-family: "century";
 }
 .h5,h5{
   font-size: 1.5rem;
   color: #351122;
 }
 .h2,h2{
-  font-family:'Bodoni Moda', serif !important;
+  font-size: 3.5rem;
+  font-family:'Rihena', serif !important;
 }
 /* CSS style for increasing line height */
 .spaced-paragraph {
   line-height: 2.0; /* Adjust the value as per your requirement */
 }
-@media (h2){
-  h2{
-    font-family: "century";
-  }
-}
+
+/******************  News Slider Demo-11 *******************/
+.post-slide11{background:#fff;margin:0 15px;box-shadow:0 1px 2px rgba(43,59,93,.3);margin-bottom:2em}
+.post-slide11 .post-img{position:relative}
+.post-slide11 .over-layer{background:rgba(0,0,0,.6);width:100%;height:100%;position:absolute;opacity:0;cursor:pointer;transition:all .3s ease 0s}
+.post-slide11:hover .over-layer{opacity:1}
+.post-slide11 .over-layer:after{content:"+";font-size:52px;color:#fff;position:absolute;top:31%;left:42%}
+.post-slide11 .post-img img{width:100%;height:auto}
+.post-slide11 .post-title{margin:25px 0 15px 0;padding:0 15px}
+.post-slide11 .post-title:before{content:"";border:2px solid #e67e22;width:18%;display:block;margin-bottom:15px}
+.post-slide11 .post-title a{font-size:20px;font-weight:700;color:#333;display:inline-block;text-transform:capitalize;transition:all .3s ease 0s}
+.post-slide11 .post-title a:hover{text-decoration:none;color:#e67e22}
+.post-slide11 .post-date{text-transform:capitalize;padding:0 15px;color:#e67e22;font-size:13px}
+.post-slide11 .post-date:before{margin-right:7px;color:#e67e22}
+.owl-theme .owl-controls .owl-page.active span,.owl-theme .owl-controls.clickable .owl-page:hover span{background:#e67e22}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -1195,6 +1206,13 @@ section {
   .slider-scrollbar .scrollbar-thumb {
     width: 20%;
   }
+}
+/*--------------------------------------------------------------
+# Happy Customers
+--------------------------------------------------------------*/
+.happycustomers {
+  background: #f1e6c8;
+  padding: 60px 0;
 }
 /*--------------------------------------------------------------
 # Team

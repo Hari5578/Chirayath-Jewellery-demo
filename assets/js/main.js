@@ -1,9 +1,9 @@
 /**
-* Template Name: Groovin
-* Updated: Jan 29 2024 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/groovin-free-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
+* Template Name: chirayath
+* Updated: april 19 2024
+* Template URL: 
+* Author: cutfruit
+* License:
 */
 (function() {
   "use strict";
@@ -203,7 +203,17 @@
       clickable: true
     }
   });
-
+  
+  $(document).ready(function() {
+    $("#news-slider11").owlCarousel({
+         items : 4,
+         itemsDesktop:[1199,3],
+         itemsDesktopSmall:[980,2],
+         itemsMobile : [600,1],
+         pagination:true,
+         autoPlay:true
+  });
+  });
   /**
    * Initiate Pure Counter 
    */
