@@ -377,7 +377,7 @@
       <div class="gallery">
         <a href="assets/img/Services/Chirayath Web Poster 02.jpg" data-lightbox='mygallery'><img src="assets/img/Services/Chirayath Web Poster 02.jpg"></a>
 
-        <a href="assets/img/Services/Chirayath Poster 04 b.jpg" data-lightbox='mygallery'><img src="assets/img/Services/Chirayath Web Poster 03.jpg"></a>
+        <a href="assets/img/Services/WhatsApp Image 2024-04-20 at 10.39.34 AM.jpeg" data-lightbox='mygallery'><img src="assets/img/Services/Chirayath Web Poster 03.jpg"></a>
 
         <a href="assets/img/Services/Chirayath Web Poster 01.jpg" data-lightbox='mygallery'><img src="assets/img/Services/Chirayath Web Poster 01.jpg"></a>
         
@@ -446,14 +446,14 @@
               <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
             </div>
             <div class="form-group mt-3">
-              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              <textarea class="form-control" name="message" id="message" rows="5" placeholder="Message" required></textarea>
             </div>
             <div class="my-3">
               <div class="loading">Loading</div>
               <div class="error-message">Sorry for the inconvenience,please try again</div>
               <div class="sent-message">Your message has been sent. Thank you!</div>
             </div>
-            <div class="text-center"><button type="submit"onclick="gotowhatsapp()">Send Message</button> </div>
+            <div class="text-center"><button type="submit"onclick="gotowhatsappmessage()">Send Message</button> </div>
           </form>
         </div>
         <span
@@ -483,9 +483,22 @@
                   var email = document.getElementById("email").value;
                   var subject = document.getElementById("subject").value;
                   var url="https://wa.me/9447777367?text="
+                  +"Please enter your Name and other needed details: "+"%0a"
                   +"Name: "+ name+"%0a"
                   +"Jewellery type: "+ subject+"%0a"
                   +"E-mail: "+email;
+                  window.open(url,'_blank').focus();
+              }
+              function gotowhatsappmessage(){
+                  var name=document.getElementById("name").value;
+                  var email = document.getElementById("email").value;
+                  var subject = document.getElementById("subject").value;
+                  var message = document.getElementById("message").value;
+                  var url="https://wa.me/9447777367?text="
+                  +"Name: "+ name+"%0a"
+                  +"E-mail: "+ email+"%0a"
+                  +"Subject: "+ subject+"%0a"
+                  +"Message: "+ message;
                   window.open(url,'_blank').focus();
               }
           </script>
